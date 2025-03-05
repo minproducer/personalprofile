@@ -35,6 +35,7 @@ function AnimatedSphere() {
           attach="material"
           shininess={60}
           specular={new THREE.Color(0x666666)}
+          className="three-sphere"
         />
       </Sphere>
     </motion.mesh>

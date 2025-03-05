@@ -1,3 +1,24 @@
+
+/* Add hover effects for skill cards */
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional style for better theme transition */
+:root {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Make sure ThreeJS sphere color updates with theme */
+.three-sphere {
+  transition: color 0.3s ease;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
