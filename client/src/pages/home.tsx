@@ -4,6 +4,7 @@ import { Mail, Phone } from "lucide-react";
 import { useInView } from "react-intersection-observer";
 import { ShapeDivider } from "@/components/ui/shape-divider";
 import { AnimatedBackground } from "@/components/three/animated-sphere";
+import { ParallaxLayer } from "@/components/ui/parallax-layer";
 
 const socialLinks = [
   { href: "https://github.com/minproducer", icon: SiGithub, label: "GitHub" },
@@ -29,10 +30,13 @@ export default function Home() {
       }}
     >
       <AnimatedBackground />
-      <div 
-        className="absolute inset-0 bg-gradient-to-b from-background/0 via-background to-background"
-        style={{ mixBlendMode: "overlay" }}
-      />
+
+      <ParallaxLayer speed={0.2} className="absolute inset-0">
+        <div 
+          className="absolute inset-0 bg-gradient-to-b from-background/0 via-background to-background"
+          style={{ mixBlendMode: "overlay" }}
+        />
+      </ParallaxLayer>
 
       <div className="container mx-auto px-4 py-16 mt-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -111,14 +115,16 @@ export default function Home() {
             </motion.div>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={inView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            className="aspect-square rounded-full bg-gradient-to-br from-primary/20 via-primary/10 to-transparent backdrop-blur-sm relative overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent animate-pulse" />
-          </motion.div>
+          <ParallaxLayer speed={0.1} className="relative">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={inView ? { opacity: 1, scale: 1 } : {}}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="aspect-square rounded-full bg-gradient-to-br from-primary/20 via-primary/10 to-transparent backdrop-blur-sm relative overflow-hidden"
+            >
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent animate-pulse" />
+            </motion.div>
+          </ParallaxLayer>
         </div>
       </div>
 

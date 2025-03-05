@@ -5,6 +5,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Sphere } from "@react-three/drei";
 import { motion } from "framer-motion-3d";
 import * as THREE from "three";
+import { ThreeErrorBoundary } from "./error-boundary";
 
 function AnimatedSphere() {
   const meshRef = useRef<THREE.Mesh>(null);
@@ -43,18 +44,23 @@ function AnimatedSphere() {
 export function AnimatedBackground() {
   return (
     <div className="absolute inset-0 -z-10 opacity-30">
-      <Canvas 
-        camera={{ position: [0, 0, 5] }}
-        gl={{ 
-          antialias: true,
-          alpha: true,
-          preserveDrawingBuffer: true
-        }}
-      >
-        <ambientLight intensity={0.5} />
-        <pointLight position={[10, 10, 10]} intensity={1.5} />
-        <AnimatedSphere />
-      </Canvas>
+      <ThreeErrorBoundary>
+        <Canvas
+          gl={{
+            antialias: true,
+            alpha: true,
+          }}
+          camera={{
+            position: [0, 0, 5],
+            fov: 50
+          }}
+          style={{ background: 'transparent' }}
+        >
+          <ambientLight intensity={0.5} />
+          <pointLight position={[10, 10, 10]} intensity={1.5} />
+          <AnimatedSphere />
+        </Canvas>
+      </ThreeErrorBoundary>
     </div>
   );
 }
