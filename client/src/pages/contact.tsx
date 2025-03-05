@@ -2,7 +2,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
+import { SiGithub, SiFacebook, SiTiktok, SiYoutube } from "react-icons/si";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -95,6 +96,42 @@ export default function Contact() {
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-primary" />
                 <span>Đà Nẵng, Việt Nam</span>
+              </div>
+
+              {/* Social Media Links */}
+              <div className="flex items-center space-x-4 mt-4">
+                <a 
+                  href="https://github.com/minproducer" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-primary/10"
+                >
+                  <SiGithub className="w-5 h-5" />
+                </a>
+                <a 
+                  href="https://facebook.com/minproducer.fb" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-primary/10"
+                >
+                  <SiFacebook className="w-5 h-5" />
+                </a>
+                <a 
+                  href="https://tiktok.com/@minproducer_tiktok" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-primary/10"
+                >
+                  <SiTiktok className="w-5 h-5" />
+                </a>
+                <a 
+                  href="https://youtube.com/@minproducer_yt" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-primary/10"
+                >
+                  <SiYoutube className="w-5 h-5" />
+                </a>
               </div>
             </motion.div>
 
