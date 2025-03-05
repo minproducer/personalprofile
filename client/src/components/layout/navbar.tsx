@@ -67,7 +67,6 @@ export function Navbar() {
 
   const handleNavClick = useCallback((href: string) => {
     closeMenu();
-    // Handle hash navigation
     const targetId = href.substring(1);
     const element = document.getElementById(targetId);
     if (element) {
@@ -80,7 +79,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="#home">
           <span 
-            className="text-xl font-bold hover:text-primary transition-colors cursor-pointer"
+            className="text-xl font-bold hover:text-primary transition-colors cursor-pointer bg-primary/10 px-3 py-1 rounded-md"
             onClick={() => handleNavClick("#home")}
           >
             MinProducer
@@ -93,8 +92,8 @@ export function Navbar() {
             <Link key={item.href} href={item.href}>
               <span
                 className={cn(
-                  "relative px-1 py-2 transition-colors hover:text-primary cursor-pointer",
-                  location === item.href && "text-primary"
+                  "relative px-3 py-2 transition-all hover:text-primary cursor-pointer rounded-md hover:bg-primary/10",
+                  location === item.href ? "text-primary bg-primary/10" : ""
                 )}
                 onClick={() => handleNavClick(item.href)}
               >
@@ -122,6 +121,7 @@ export function Navbar() {
             size="icon"
             onClick={toggleMenu}
             aria-label="Toggle menu"
+            className="hover:bg-primary/10"
           >
             {isOpen ? (
               <X className="h-5 w-5" />
@@ -148,8 +148,8 @@ export function Navbar() {
                   <Link href={item.href}>
                     <span
                       className={cn(
-                        "block py-3 text-lg transition-colors hover:text-primary cursor-pointer",
-                        location === item.href && "text-primary"
+                        "block py-3 px-3 text-lg transition-all hover:text-primary cursor-pointer rounded-md hover:bg-primary/10",
+                        location === item.href ? "text-primary bg-primary/10" : ""
                       )}
                       onClick={() => handleNavClick(item.href)}
                     >
