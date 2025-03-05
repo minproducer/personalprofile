@@ -3,7 +3,6 @@ import { SiGithub, SiFacebook, SiTiktok, SiYoutube } from "react-icons/si";
 import { Mail, Phone } from "lucide-react";
 import { useInView } from "react-intersection-observer";
 import { ShapeDivider } from "@/components/ui/shape-divider";
-import { AnimatedBackground } from "@/components/three/animated-sphere";
 import { ParallaxLayer } from "@/components/ui/parallax-layer";
 
 const socialLinks = [
@@ -29,7 +28,8 @@ export default function Home() {
         backgroundRepeat: "repeat",
       }}
     >
-      <AnimatedBackground />
+      {/* Animated gradient background */}
+      <div className="absolute inset-0 -z-10 animate-gradient bg-gradient-to-br from-primary/20 via-primary/10 to-transparent" />
 
       <ParallaxLayer speed={0.2} className="absolute inset-0">
         <div 
