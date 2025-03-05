@@ -30,42 +30,29 @@ const skills = [
   }
 ];
 
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1
-    }
-  }
-};
-
-const item = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0 }
-};
-
 export default function Skills() {
   return (
-    <div className="min-h-screen pt-16">
+    <section id="skills" className="min-h-screen flex items-center">
       <div className="container mx-auto px-4 py-16">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           className="text-4xl font-bold mb-8 text-center"
         >
           Lĩnh Vực Chuyên Môn
         </motion.h1>
 
-        <motion.div
-          variants={container}
-          initial="hidden"
-          animate="show"
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
-          {skills.map((skill) => (
-            <motion.div key={skill.title} variants={item}>
-              <Card className="h-full hover:shadow-lg transition-shadow">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {skills.map((skill, index) => (
+            <motion.div
+              key={skill.title}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+            >
+              <Card className="h-full hover:shadow-lg transition-all duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center space-x-2">
                     <skill.icon className="w-6 h-6 text-primary" />
@@ -78,8 +65,8 @@ export default function Skills() {
               </Card>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -17,62 +17,53 @@ const projects = [
   }
 ];
 
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.2
-    }
-  }
-};
-
-const item = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0 }
-};
-
 export default function Projects() {
   return (
-    <div className="min-h-screen pt-16">
+    <section id="projects" className="min-h-screen flex items-center">
       <div className="container mx-auto px-4 py-16">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           className="text-4xl font-bold mb-8 text-center"
         >
           Dự Án
         </motion.h1>
 
-        <motion.div
-          variants={container}
-          initial="hidden"
-          animate="show"
-          className="grid grid-cols-1 md:grid-cols-2 gap-6"
-        >
-          {projects.map((project) => (
-            <motion.div key={project.title} variants={item}>
-              <Card className="h-full hover:shadow-lg transition-all group">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {projects.map((project, index) => (
+            <motion.div
+              key={project.title}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
+            >
+              <Card className="h-full hover:shadow-lg transition-all duration-300 group">
                 <CardHeader>
                   <CardTitle className="flex items-center justify-between">
                     <span>{project.title}</span>
                     <div className="flex space-x-2">
-                      <a
+                      <motion.a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-primary transition-colors"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
                       >
                         <Github className="w-5 h-5" />
-                      </a>
-                      <a
+                      </motion.a>
+                      <motion.a
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-primary transition-colors"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
                       >
                         <ExternalLink className="w-5 h-5" />
-                      </a>
+                      </motion.a>
                     </div>
                   </CardTitle>
                 </CardHeader>
@@ -82,8 +73,8 @@ export default function Projects() {
               </Card>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
