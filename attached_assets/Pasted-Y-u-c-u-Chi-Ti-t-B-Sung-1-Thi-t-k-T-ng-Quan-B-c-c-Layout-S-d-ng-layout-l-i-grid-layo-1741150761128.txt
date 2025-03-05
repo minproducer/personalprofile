@@ -1,0 +1,91 @@
+Yêu cầu Chi Tiết & Bổ Sung:
+
+1. Thiết kế Tổng Quan:
+
+Bố cục (Layout):
+Sử dụng layout lưới (grid layout) để đảm bảo tính linh hoạt và dễ dàng điều chỉnh trên mọi thiết bị.
+Thiết kế theo phong cách tối giản (minimalist) để làm nổi bật nội dung.
+Chia trang web thành các section rõ ràng (Home, Skills, Projects, Contact).
+Sử dụng khoảng trắng (white space) hợp lý để tạo cảm giác thoáng đãng.
+Màu sắc:
+Tone màu chủ đạo: Trắng (#FFFFFF), Xám nhạt (#F0F0F0, #E0E0E0), và các màu pastel nhẹ nhàng (ví dụ: xanh dương nhạt, hồng nhạt).
+Giao diện tối: Đen (#121212) hoặc Xám đậm (#333333), chữ trắng hoặc xám sáng (#EEEEEE).
+Sử dụng CSS variables để quản lý màu sắc, cho phép dễ dàng thay đổi theme.
+Màu nhấn: Sử dụng 1 hoặc 2 màu nhấn, như màu xanh dương đậm, hoặc cam.
+Typography:
+Chọn font chữ dễ đọc, hiện đại (ví dụ: Roboto, Open Sans, Montserrat).
+Sử dụng kích thước chữ và khoảng cách dòng hợp lý.
+Tối ưu hoá các heading, để người xem dễ dàng đọc lướt.
+Hình ảnh:
+Ảnh đại diện chất lượng cao, chuyên nghiệp.
+Sử dụng ảnh minh họa cho các dự án và kỹ năng.
+Tối ưu hóa hình ảnh để đảm bảo tốc độ tải trang.
+Responsive Design:
+Thiết kế để trang web hiển thị tốt trên mọi thiết bị (desktop, tablet, mobile).
+Sử dụng media queries trong CSS để điều chỉnh layout và kích thước phần tử.
+2. Nội dung Chi Tiết:
+
+Trang Chủ (Home):
+Giới thiệu:
+Tên đầy đủ, biệt danh, vai trò (Nhà phát triển, Thiết kế, Nhiếp ảnh gia, Tài xế).
+Tiểu sử ngắn gọn, mang tính cá nhân.
+Câu trích dẫn (quote) thể hiện triết lý làm việc.
+Thông tin liên hệ:
+Email, số điện thoại, liên kết GitHub, các trang mạng xã hội.
+Các icons cho các trang mạng xã hội, có hiệu ứng hover đổi màu.
+Hình ảnh & hiệu ứng:
+Ảnh đại diện nền trong suốt, hoặc có hiệu ứng đổ bóng.
+Hiệu ứng chuyển động nhẹ nhàng cho logo, hoặc tên.
+Lĩnh vực Chuyên môn (Skills):
+Phân chia rõ ràng: Phát triển Web, Thiết kế, Nhiếp ảnh, Lái xe, Quản lý nội dung số.
+Mô tả kỹ năng:
+Liệt kê các ngôn ngữ, framework, công cụ sử dụng.
+Mô tả ngắn gọn về kinh nghiệm và thành tựu.
+Hiển thị dự án:
+Ảnh minh họa cho các dự án.
+Liên kết đến dự án (nếu có).
+Các icons đại diện cho từng kĩ năng.
+Dự án (Projects):
+Trình bày chi tiết:
+Tên dự án, mô tả, công nghệ sử dụng, hình ảnh/video minh họa.
+Liên kết đến dự án (nếu có), hoặc mã nguồn trên GitHub.
+Các hiệu ứng khi hover vào từng dự án, như phóng to, đổi màu, hiện thêm thông tin.
+Liên hệ (Contact):
+Form liên hệ:
+Tên, email, tin nhắn.
+Hiển thị thông báo khi gửi thành công/thất bại.
+Thông tin liên hệ:
+Địa chỉ, số điện thoại, email.
+Bản đồ nhúng Google Maps.
+Footer:
+Thông tin bản quyền.
+Liên kết đến các trang mạng xã hội.
+Nút cuộn lên đầu trang.
+3. Tính Năng Kỹ Thuật:
+
+Chuyển đổi giao diện:
+Button chuyển đổi (icon mặt trời/mặt trăng).
+JavaScript để thêm/xóa class dark-mode vào thẻ <body>.
+Sử dụng localStorage để lưu trạng thái giao diện.
+Hàm kiểm tra giờ địa phương để tự động chuyển đổi.
+Hiệu ứng Animation:
+Cuộn mượt (CSS: scroll-behavior: smooth;).
+Hiệu ứng hover: chuyển màu, phóng to, đổ bóng.
+Hiệu ứng tải trang: mờ dần, trượt vào.
+Sử dụng CSS transitions/animations, hoặc thư viện GSAP/Framer Motion.
+Tối ưu hóa SEO:
+Sử dụng thẻ <meta> mô tả thông tin trang web.
+Tối ưu hóa hình ảnh.
+Sử dụng thẻ heading (H1, H2, H3...) hợp lý.
+Tối ưu hoá hiệu năng:
+Minify các file CSS, Javascript.
+Lazyload các ảnh.
+Sử dụng CDN cho các thư viện.
+4. Yêu Cầu Bổ Sung:
+
+Trang 404: Trang 404 được thiết kế riêng, đẹp mắt, có liên kết quay lại trang chủ.
+Favicon: Icon nhỏ trên tab trình duyệt, thể hiện dấu ấn cá nhân.
+Progress bar: Thanh tiến trình cuộn trang, thể hiện vị trí người dùng.
+Light box: Khi click vào ảnh, hiện ảnh lớn hơn trên nền tối.
+Hiệu ứng parallax: Hiệu ứng cuộn nền độc đáo cho một số section.
+Hiệu ứng typing: Hiệu ứng chữ gõ máy đánh chữ cho phần giới thiệu.

@@ -1,0 +1,59 @@
+Thông tin Cá nhân (Cập nhật)
+
+Tên đầy đủ: Ngô Tấn Minh Giang
+Tên thường gọi: Min
+Biệt danh trên mạng: MinProducer
+Ngày sinh: 14 tháng 5 năm 1999
+Địa điểm: Đà Nẵng, Việt Nam
+Email: minhhai113he@gmail.com
+Điện thoại: (+84) 773448750
+GitHub: github.com/minproducer
+Facebook: facebook.com/minproducer.fb
+TikTok: tiktok.com/@minproducer_tiktok
+YouTube: youtube.com/@minproducer_yt
+Bằng lái: B2, A1
+Cập nhật Nội Dung Trang Web:
+
+1. Trang Chủ (Home):
+
+Tiêu đề: "Chào mừng đến với thế giới của MinProducer!"
+Giới thiệu:
+"Tôi là Ngô Tấn Minh Giang, hay Min, một nhà phát triển, thiết kế, nhiếp ảnh gia và tài xế đa năng. Sinh ra và lớn lên tại Đà Nẵng, tôi luôn tìm kiếm những cách thức sáng tạo để kết hợp các đam mê của mình. Từ việc xây dựng những ứng dụng web mượt mà đến việc ghi lại những khoảnh khắc đẹp qua ống kính, tôi tin rằng mỗi dự án là một cơ hội để thể hiện dấu ấn cá nhân."
+Ảnh đại diện: Ảnh chân dung chuyên nghiệp của bạn.
+Liên kết mạng xã hội: Các biểu tượng liên kết đến GitHub, Facebook, TikTok, YouTube.
+Thông tin liên hệ: Email, số điện thoại.
+Hiệu ứng: hiệu ứng chữ gõ máy đánh chữ ở phần giới thiệu, hoặc hiệu ứng parallax cho phần ảnh nền.
+2. Lĩnh Vực Chuyên Môn (Skills):
+
+Phát triển Web:
+Mô tả: "Tôi xây dựng các ứng dụng web hiện đại và tối ưu hóa SEO bằng JavaScript, TypeScript, ReactJS, Vue.js, Node.js. Kinh nghiệm phát triển tiện ích mở rộng Chrome giúp tôi tạo ra các giải pháp tự động hóa hiệu quả."
+Thiết kế:
+Mô tả: "Tôi tạo ra giao diện người dùng và trải nghiệm người dùng tối ưu, cùng với kỹ năng thiết kế đồ họa, chỉnh sửa ảnh và video chuyên nghiệp."
+Quản Lý Nội Dung Số:
+Mô tả: "Tạo và quản lý các nội dung số trên các nền tảng xã hội, xây dựng các chiến lược phát triển cộng đồng."
+Nhiếp Ảnh:
+Mô tả: "Tôi ghi lại những khoảnh khắc đẹp qua các dự án chụp ảnh đa dạng: chân dung, phong cảnh, sự kiện. Kỹ năng chỉnh sửa ảnh chuyên nghiệp đảm bảo mỗi bức ảnh đều hoàn hảo."
+Lái Xe:
+Mô tả: "Với bằng lái B2 và A1, tôi có kinh nghiệm lái xe đưa đón tận nơi qua hàng ngàn cuốc xe, thông thạo nhiều cung đường và loại địa hình, đảm bảo an toàn trên mọi hành trình."
+Các Kỹ Năng Khác:
+Mô tả: "Quản lý cơ sở dữ liệu (MySQL, MongoDB, Firebase), sử dụng thành thạo Git, npm, Heroku CLI, vận hành và tối ưu hóa server."
+3. Dự Án (Projects):
+
+Messenger Expander:
+Mô tả: "Tiện ích mở rộng Chrome giúp tự động hóa tin nhắn Facebook, thể hiện kỹ năng lập trình và giải quyết vấn đề."
+StudentZone:
+Mô tả: "Mạng xã hội thử nghiệm, thể hiện khả năng xây dựng ứng dụng web phức tạp và quản lý cơ sở dữ liệu."
+Các Dự Án Nhiếp Ảnh:
+Mô tả: "Các bộ sưu tập ảnh chân dung, phong cảnh, sự kiện, thể hiện kỹ năng nhiếp ảnh và chỉnh sửa ảnh chuyên nghiệp."
+Thêm vào các dự án web đã từng làm.
+4. Liên Hệ (Contact):
+
+Form liên hệ: Tên, email, tin nhắn.
+Thông tin liên hệ: Email, số điện thoại, bản đồ Google Maps.
+Điều chỉnh Thêm:
+
+Sử dụng ảnh minh họa phù hợp cho từng phần.
+Tạo các hiệu ứng hover khi di chuột vào các phần tử.
+Tối ưu hóa hình ảnh và mã nguồn để tăng tốc độ tải trang.
+Thêm vào 1 trang về các video đã được dựng, hoặc đã làm.
+Tối ưu hoá các thẻ meta của trang web, để tăng khả năng tìm kiếm trên google.
