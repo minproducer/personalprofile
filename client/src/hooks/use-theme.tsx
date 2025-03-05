@@ -12,23 +12,32 @@ export function useTheme() {
     const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
     setTheme(initialTheme);
     applyTheme(initialTheme);
+
+    // Add listener for system theme changes
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handleChange = () => {
+      if (!localStorage.getItem("theme")) {
+        const newTheme = mediaQuery.matches ? "dark" : "light";
+        setTheme(newTheme);
+        applyTheme(newTheme);
+      }
+    };
+    
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);
 
   const applyTheme = (newTheme: "light" | "dark") => {
     const root = document.documentElement;
     
-    // Toggle dark class
-    root.classList.toggle("dark", newTheme === "dark");
-    
-    // Update data attribute
-    root.setAttribute("data-theme", newTheme);
+    if (newTheme === "dark") {
+      root.classList.add("dark");
+    } else {
+      root.classList.remove("dark");
+    }
     
     // Store in localStorage
     localStorage.setItem("theme", newTheme);
-
-    // Force a repaint to fix potential theme issues
-    // This forces a style recalculation
-    const _ = document.body.offsetHeight;
   };
 
   const toggleTheme = () => {
