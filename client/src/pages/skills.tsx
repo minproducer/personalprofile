@@ -57,8 +57,9 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="skill-card" // Added skill-card class
             >
-              <Card className="h-full group hover:scale-105 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 before:absolute before:inset-0 before:border-2 before:border-primary/0 before:rounded-lg hover:before:border-primary/50 before:transition-all overflow-hidden">
+              <Card className="h-full group hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl hover:shadow-primary/20 before:absolute before:inset-0 before:border-2 before:border-primary/0 before:rounded-lg hover:before:border-primary/50 before:transition-all overflow-hidden"> {/* Added ease-in-out for smoother transition */}
                 <CardHeader>
                   <div 
                     className="w-full aspect-video rounded-lg overflow-hidden mb-4 relative"
@@ -68,15 +69,15 @@ export default function Skills() {
                       backgroundPosition: 'center'
                     }}
                   >
-                    <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors" />
+                    <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-300 ease-in-out"/> {/* Added ease-in-out for smoother transition */}
                   </div>
                   <CardTitle className="flex items-center space-x-2">
-                    <skill.icon className="w-6 h-6 text-primary transition-all duration-300 group-hover:scale-110 group-hover:rotate-6" />
-                    <span className="transition-colors group-hover:text-primary">{skill.title}</span>
+                    <skill.icon className="w-6 h-6 text-primary transition-all duration-300 ease-in-out group-hover:scale-110 group-hover:rotate-6" /> {/* Added ease-in-out for smoother transition */}
+                    <span className="transition-colors duration-300 ease-in-out group-hover:text-primary">{skill.title}</span> {/* Added ease-in-out for smoother transition */}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground group-hover:text-foreground transition-colors">{skill.description}</p>
+                  <p className="text-muted-foreground transition-colors duration-300 ease-in-out group-hover:text-foreground">{skill.description}</p> {/* Added ease-in-out for smoother transition */}
                 </CardContent>
               </Card>
             </motion.div>
