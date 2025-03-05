@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Code, Camera, Car, Pencil, Database } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ShapeDivider } from "@/components/ui/shape-divider";
 
 const skills = [
   {
@@ -32,7 +33,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="min-h-screen flex items-center">
+    <section id="skills" className="min-h-screen flex items-center relative">
       <div className="container mx-auto px-4 py-16">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
@@ -52,10 +53,10 @@ export default function Skills() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="h-full hover:shadow-lg transition-all duration-300">
+              <Card className="h-full hover:shadow-lg transition-all duration-300 group">
                 <CardHeader>
                   <CardTitle className="flex items-center space-x-2">
-                    <skill.icon className="w-6 h-6 text-primary" />
+                    <skill.icon className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
                     <span>{skill.title}</span>
                   </CardTitle>
                 </CardHeader>
@@ -67,6 +68,11 @@ export default function Skills() {
           ))}
         </div>
       </div>
+      <ShapeDivider 
+        variant="curve" 
+        className="transform-gpu"
+        color="hsl(var(--background))"
+      />
     </section>
   );
 }

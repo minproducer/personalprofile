@@ -79,21 +79,21 @@ export function Navbar() {
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-40 border-b">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="#home">
-          <a 
-            className="text-xl font-bold hover:text-primary transition-colors"
+          <span 
+            className="text-xl font-bold hover:text-primary transition-colors cursor-pointer"
             onClick={() => handleNavClick("#home")}
           >
             MinProducer
-          </a>
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-6">
           {navItems.map((item) => (
             <Link key={item.href} href={item.href}>
-              <a
+              <span
                 className={cn(
-                  "relative px-1 py-2 transition-colors hover:text-primary",
+                  "relative px-1 py-2 transition-colors hover:text-primary cursor-pointer",
                   location === item.href && "text-primary"
                 )}
                 onClick={() => handleNavClick(item.href)}
@@ -108,7 +108,7 @@ export function Navbar() {
                   />
                 )}
                 {item.label}
-              </a>
+              </span>
             </Link>
           ))}
           <ThemeToggle />
@@ -146,15 +146,15 @@ export function Navbar() {
               {navItems.map((item) => (
                 <motion.div key={item.href} variants={itemVariants}>
                   <Link href={item.href}>
-                    <a
+                    <span
                       className={cn(
-                        "block py-3 text-lg transition-colors hover:text-primary",
+                        "block py-3 text-lg transition-colors hover:text-primary cursor-pointer",
                         location === item.href && "text-primary"
                       )}
                       onClick={() => handleNavClick(item.href)}
                     >
                       {item.label}
-                    </a>
+                    </span>
                   </Link>
                 </motion.div>
               ))}

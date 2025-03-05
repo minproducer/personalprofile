@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ExternalLink, Github } from "lucide-react";
+import { ShapeDivider } from "@/components/ui/shape-divider";
 
 const projects = [
   {
@@ -19,7 +20,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="min-h-screen flex items-center">
+    <section id="projects" className="min-h-screen flex items-center relative">
       <div className="container mx-auto px-4 py-16">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
@@ -75,6 +76,11 @@ export default function Projects() {
           ))}
         </div>
       </div>
+      <ShapeDivider 
+        variant="tilt" 
+        className="transform-gpu"
+        color="hsl(var(--background))"
+      />
     </section>
   );
 }
