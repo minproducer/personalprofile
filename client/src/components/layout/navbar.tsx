@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { Link, useLocation } from "wouter";
+import { Link } from "wouter";
+import { useScrollToHash } from "@/hooks/use-scroll-to-hash";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { motion, AnimatePresence } from "framer-motion";
@@ -9,10 +10,10 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { href: "/#", label: "Home" },
-  { href: "/#skills", label: "Skills" },
-  { href: "/#projects", label: "Projects" },
-  { href: "/#contact", label: "Contact" },
+  { href: "#home", label: "Home" },
+  { href: "#skills", label: "Skills" },
+  { href: "#projects", label: "Projects" },
+  { href: "#contact", label: "Contact" },
 ];
 
 const menuVariants = {
@@ -53,7 +54,7 @@ const itemVariants = {
 };
 
 export function Navbar() {
-  const [location] = useLocation();
+  const location = useScrollToHash();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = useCallback(() => {
@@ -64,11 +65,24 @@ export function Navbar() {
     setIsOpen(false);
   }, []);
 
+  const handleNavClick = useCallback((href: string) => {
+    closeMenu();
+    // Handle hash navigation
+    const targetId = href.substring(1);
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [closeMenu]);
+
   return (
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-40 border-b">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/#">
-          <a className="text-xl font-bold hover:text-primary transition-colors">
+        <Link href="#home">
+          <a 
+            className="text-xl font-bold hover:text-primary transition-colors"
+            onClick={() => handleNavClick("#home")}
+          >
             MinProducer
           </a>
         </Link>
@@ -80,10 +94,11 @@ export function Navbar() {
               <a
                 className={cn(
                   "relative px-1 py-2 transition-colors hover:text-primary",
-                  location === item.href.substring(1) && "text-primary"
+                  location === item.href && "text-primary"
                 )}
+                onClick={() => handleNavClick(item.href)}
               >
-                {location === item.href.substring(1) && (
+                {location === item.href && (
                   <motion.span
                     layoutId="underline"
                     className="absolute left-0 right-0 bottom-0 h-0.5 bg-primary"
@@ -134,9 +149,9 @@ export function Navbar() {
                     <a
                       className={cn(
                         "block py-3 text-lg transition-colors hover:text-primary",
-                        location === item.href.substring(1) && "text-primary"
+                        location === item.href && "text-primary"
                       )}
-                      onClick={closeMenu}
+                      onClick={() => handleNavClick(item.href)}
                     >
                       {item.label}
                     </a>
