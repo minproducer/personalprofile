@@ -40,36 +40,38 @@ export default function Projects() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-              <Card className="h-full hover:shadow-lg transition-all duration-300 group">
+              <Card className="h-full group hover:scale-105 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 before:absolute before:inset-0 before:border-2 before:border-primary/0 before:rounded-lg hover:before:border-primary/50 before:transition-all overflow-hidden">
                 <CardHeader>
                   <CardTitle className="flex items-center justify-between">
-                    <span>{project.title}</span>
-                    <div className="flex space-x-2">
+                    <span className="transition-colors group-hover:text-primary">{project.title}</span>
+                    <div className="flex space-x-3">
                       <motion.a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
+                        className="relative text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-primary/10 group-hover:scale-110"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.95 }}
                       >
                         <Github className="w-5 h-5" />
+                        <span className="sr-only">GitHub Repository</span>
                       </motion.a>
                       <motion.a
                         href={project.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors"
+                        className="relative text-muted-foreground hover:text-primary transition-colors p-2 rounded-full hover:bg-primary/10 group-hover:scale-110"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.95 }}
                       >
                         <ExternalLink className="w-5 h-5" />
+                        <span className="sr-only">Live Demo</span>
                       </motion.a>
                     </div>
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">{project.description}</p>
+                  <p className="text-muted-foreground group-hover:text-foreground transition-colors">{project.description}</p>
                 </CardContent>
               </Card>
             </motion.div>

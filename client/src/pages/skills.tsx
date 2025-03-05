@@ -53,15 +53,15 @@ export default function Skills() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="h-full hover:shadow-lg transition-all duration-300 group">
+              <Card className="h-full group hover:scale-105 transition-all duration-300 hover:shadow-xl hover:shadow-primary/20 before:absolute before:inset-0 before:border-2 before:border-primary/0 before:rounded-lg hover:before:border-primary/50 before:transition-all overflow-hidden">
                 <CardHeader>
                   <CardTitle className="flex items-center space-x-2">
-                    <skill.icon className="w-6 h-6 text-primary group-hover:scale-110 transition-transform" />
-                    <span>{skill.title}</span>
+                    <skill.icon className="w-6 h-6 text-primary transition-all duration-300 group-hover:scale-110 group-hover:rotate-6" />
+                    <span className="transition-colors group-hover:text-primary">{skill.title}</span>
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">{skill.description}</p>
+                  <p className="text-muted-foreground group-hover:text-foreground transition-colors">{skill.description}</p>
                 </CardContent>
               </Card>
             </motion.div>
