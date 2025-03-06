@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 export function useTheme() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     // On mount, read the preferred theme from localStorage or browser settings
@@ -12,6 +13,7 @@ export function useTheme() {
     const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
     setTheme(initialTheme);
     applyTheme(initialTheme);
+    setIsLoaded(true);
 
     // Add listener for system theme changes
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
@@ -38,6 +40,11 @@ export function useTheme() {
     
     // Store in localStorage
     localStorage.setItem("theme", newTheme);
+    
+    // Force a style recalculation to ensure theme is applied correctly
+    window.requestAnimationFrame(() => {
+      const _ = document.body.offsetHeight;
+    });
   };
 
   const toggleTheme = () => {
@@ -46,5 +53,5 @@ export function useTheme() {
     applyTheme(newTheme);
   };
 
-  return { theme, toggleTheme };
+  return { theme, toggleTheme, isLoaded };
 }
