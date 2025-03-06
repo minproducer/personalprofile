@@ -34,6 +34,16 @@
   color-scheme: light dark;
 }
 
+/* Explicit styles for light mode */
+html.light {
+  color-scheme: light;
+}
+
+/* Explicit styles for dark mode */
+html.dark {
+  color-scheme: dark;
+}
+
 /* Apply transitions to specific properties only for smoother performance */
 html.theme-transition,
 html.theme-transition *,

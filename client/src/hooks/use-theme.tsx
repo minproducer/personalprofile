@@ -34,7 +34,9 @@ export function useTheme() {
     
     if (newTheme === "dark") {
       root.classList.add("dark");
+      root.classList.remove("light");
     } else {
+      root.classList.add("light");
       root.classList.remove("dark");
     }
     
