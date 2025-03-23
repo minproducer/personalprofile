@@ -4,7 +4,6 @@ const urlsToCache = [
   '/index.html',
   'manifest.json',
   'assets/bg-pattern.svg',
-  'icons/icon-192x192.png',
   'icons/icon-512x512.png'
 ];
 
