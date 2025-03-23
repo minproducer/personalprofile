@@ -8,31 +8,31 @@ const skills = [
     title: "Phát triển Web",
     icon: Code,
     description: "Tôi xây dựng các ứng dụng web hiện đại và tối ưu hóa SEO bằng JavaScript, TypeScript, ReactJS, Vue.js, Node.js.",
-    image: "/assets/skills/web-dev.svg"
+    image: "assets/skills/web-dev.svg"
   },
   {
     title: "Thiết kế",
     icon: Pencil,
     description: "Tôi tạo ra giao diện người dùng và trải nghiệm người dùng tối ưu, cùng với kỹ năng thiết kế đồ họa, chỉnh sửa ảnh và video chuyên nghiệp.",
-    image: "/assets/skills/design.svg"
+    image: "assets/skills/design.svg"
   },
   {
     title: "Nhiếp Ảnh",
     icon: Camera,
     description: "Tôi ghi lại những khoảnh khắc đẹp qua các dự án chụp ảnh đa dạng: chân dung, phong cảnh, sự kiện.",
-    image: "/assets/skills/photography.svg"
+    image: "assets/skills/photography.svg"
   },
   {
     title: "Lái Xe",
     icon: Car,
     description: "Với bằng lái B2 và A1, tôi có kinh nghiệm lái xe đưa đón tận nơi qua hàng ngàn cuốc xe, thông thạo nhiều cung đường.",
-    image: "/assets/skills/driving.svg"
+    image: "assets/skills/driving.svg"
   },
   {
     title: "Quản Lý Dữ Liệu",
     icon: Database,
     description: "Quản lý cơ sở dữ liệu (MySQL, MongoDB, Firebase), sử dụng thành thạo Git, npm, Heroku CLI.",
-    image: "/assets/skills/database.svg"
+    image: "assets/skills/database.svg"
   }
 ];
 
