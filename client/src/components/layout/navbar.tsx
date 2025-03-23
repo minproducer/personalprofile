@@ -1,7 +1,6 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { Link } from "wouter";
 import { useScrollToHash } from "@/hooks/use-scroll-to-hash";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -10,10 +9,10 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { href: "#home", label: "Home" },
-  { href: "#skills", label: "Skills" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "home", label: "Home" },
+  { href: "skills", label: "Skills" },
+  { href: "projects", label: "Projects" },
+  { href: "contact", label: "Contact" },
 ];
 
 const menuVariants = {
@@ -65,50 +64,52 @@ export function Navbar() {
     setIsOpen(false);
   }, []);
 
-  const handleNavClick = useCallback((href: string) => {
+  const handleNavClick = useCallback((e: React.MouseEvent, sectionId: string) => {
+    e.preventDefault();
     closeMenu();
-    const targetId = href.substring(1);
-    const element = document.getElementById(targetId);
+
+    const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+      // Cập nhật URL hash nhưng không thêm dấu / vào trước
+      window.history.pushState(null, "", `#${sectionId}`);
     }
   }, [closeMenu]);
 
   return (
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-sm z-40 border-b">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="#home">
-          <span 
-            className="text-xl font-bold hover:text-primary transition-colors cursor-pointer bg-primary/10 px-3 py-1 rounded-md"
-            onClick={() => handleNavClick("#home")}
-          >
-            MinProducer
-          </span>
-        </Link>
+        <a
+          href="#home"
+          className="text-xl font-bold hover:text-primary transition-colors cursor-pointer bg-primary/10 px-3 py-1 rounded-md"
+          onClick={(e) => handleNavClick(e, "home")}
+        >
+          MinProducer
+        </a>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-6">
           {navItems.map((item) => (
-            <Link key={item.href} href={item.href}>
-              <span
-                className={cn(
-                  "relative px-3 py-2 transition-all hover:text-primary cursor-pointer rounded-md hover:bg-primary/10",
-                  location === item.href ? "text-primary bg-primary/10" : ""
-                )}
-                onClick={() => handleNavClick(item.href)}
-              >
-                {location === item.href && (
-                  <motion.span
-                    layoutId="underline"
-                    className="absolute left-0 right-0 bottom-0 h-0.5 bg-primary"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.3 }}
-                  />
-                )}
-                {item.label}
-              </span>
-            </Link>
+            <a
+              key={item.href}
+              href={`#${item.href}`}
+              className={cn(
+                "relative px-3 py-2 transition-all hover:text-primary cursor-pointer rounded-md hover:bg-primary/10",
+                location === item.href ? "text-primary bg-primary/10" : ""
+              )}
+              onClick={(e) => handleNavClick(e, item.href)}
+            >
+              {location === item.href && (
+                <motion.span
+                  layoutId="underline"
+                  className="absolute left-0 right-0 bottom-0 h-0.5 bg-primary"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.3 }}
+                />
+              )}
+              {item.label}
+            </a>
           ))}
           <ThemeToggle />
         </div>
@@ -145,17 +146,16 @@ export function Navbar() {
             <div className="container mx-auto px-4 py-4">
               {navItems.map((item) => (
                 <motion.div key={item.href} variants={itemVariants}>
-                  <Link href={item.href}>
-                    <span
-                      className={cn(
-                        "block py-3 px-3 text-lg transition-all hover:text-primary cursor-pointer rounded-md hover:bg-primary/10",
-                        location === item.href ? "text-primary bg-primary/10" : ""
-                      )}
-                      onClick={() => handleNavClick(item.href)}
-                    >
-                      {item.label}
-                    </span>
-                  </Link>
+                  <a
+                    href={`#${item.href}`}
+                    className={cn(
+                      "block py-3 px-3 text-lg transition-all hover:text-primary cursor-pointer rounded-md hover:bg-primary/10",
+                      location === item.href ? "text-primary bg-primary/10" : ""
+                    )}
+                    onClick={(e) => handleNavClick(e, item.href)}
+                  >
+                    {item.label}
+                  </a>
                 </motion.div>
               ))}
             </div>
