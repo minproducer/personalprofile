@@ -24,7 +24,7 @@ export default function Home() {
       ref={ref}
       className="min-h-screen flex items-center relative overflow-hidden"
       style={{
-        backgroundImage: "url('/assets/bg-pattern.svg')",
+        backgroundImage: "url('assets/bg-pattern.svg')",
         backgroundRepeat: "repeat",
       }}
     >

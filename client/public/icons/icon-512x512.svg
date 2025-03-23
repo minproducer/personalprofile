@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#4f46e5"/>
+  
+  <!-- Stylized "M" for MinProducer -->
+  <path d="M128 128 L128 384 L192 384 L256 270 L320 384 L384 384 L384 128 L320 128 L320 288 L256 174 L192 288 L192 128 Z" 
+        fill="#ffffff" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Creative elements representing multiple skills -->
+  <!-- Camera for photography -->
+  <circle cx="128" cy="128" r="32" fill="#ffffff" opacity="0.7"/>
+  <rect x="110" y="110" width="36" height="36" rx="4" fill="#4f46e5" opacity="0.9"/>
+  <circle cx="128" cy="128" r="12" fill="#ffffff"/>
+  
+  <!-- Code bracket for development -->
+  <path d="M416 240 L448 270 L416 300" stroke="#ffffff" stroke-width="10" fill="none" opacity="0.7"/>
+  <path d="M96 240 L64 270 L96 300" stroke="#ffffff" stroke-width="10" fill="none" opacity="0.7"/>
+  
+  <!-- Steering wheel for driving -->
+  <circle cx="256" cy="384" r="48" stroke="#ffffff" stroke-width="8" fill="none" opacity="0.7"/>
+  <circle cx="256" cy="384" r="16" fill="#ffffff" opacity="0.7"/>
+  <path d="M256 336 L256 352" stroke="#ffffff" stroke-width="4"/>
+  <path d="M256 416 L256 432" stroke="#ffffff" stroke-width="4"/>
+  <path d="M208 384 L224 384" stroke="#ffffff" stroke-width="4"/>
+  <path d="M288 384 L304 384" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Design element -->
+  <rect x="370" y="90" width="52" height="52" rx="10" fill="#ffffff" opacity="0.7"/>
+  <path d="M380 116 L412 116" stroke="#4f46e5" stroke-width="4"/>
+  <path d="M380 106 L400 106" stroke="#4f46e5" stroke-width="4"/>
+  <path d="M380 126 L390 126" stroke="#4f46e5" stroke-width="4"/>
+</svg>
