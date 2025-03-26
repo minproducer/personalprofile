@@ -1,2142 +1,256 @@
-scroll-progress.tsx:8 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-ScrollProgress @ scroll-progress.tsx:8
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-scroll-progress.tsx:8 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-ScrollProgress @ scroll-progress.tsx:8
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1622 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at useState (react.development.js:1622:21)
-    at ScrollProgress (scroll-progress.tsx:8:35)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useState @ react.development.js:1622
-ScrollProgress @ scroll-progress.tsx:8
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-use-scroll-to-hash.ts:5 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-useRouter @ index.js:67
-useLocation @ index.js:97
-useScrollToHash @ use-scroll-to-hash.ts:5
-Navbar @ navbar.tsx:56
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-use-scroll-to-hash.ts:5 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-useRouter @ index.js:67
-useLocation @ index.js:97
-useScrollToHash @ use-scroll-to-hash.ts:5
-Navbar @ navbar.tsx:56
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at useRouter (index.js:67:25)
-    at useLocation (index.js:97:49)
-    at useScrollToHash (use-scroll-to-hash.ts:5:22)
-    at Navbar (navbar.tsx:56:20)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-useContext @ react.development.js:1618
-useRouter @ index.js:67
-useLocation @ index.js:97
-useScrollToHash @ use-scroll-to-hash.ts:5
-Navbar @ navbar.tsx:56
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-home.tsx:16 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-useInView @ useInView.tsx:48
-Home @ home.tsx:16
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-home.tsx:16 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-useInView @ useInView.tsx:48
-Home @ home.tsx:16
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1622 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at Object.useState (react.development.js:1622:21)
-    at useInView (useInView.tsx:48:31)
-    at Home (home.tsx:16:27)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-useState @ react.development.js:1622
-useInView @ useInView.tsx:48
-Home @ home.tsx:16
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-contact.tsx:42 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-Contact @ contact.tsx:42
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-contact.tsx:42 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-Contact @ contact.tsx:42
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1622 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at useState (react.development.js:1622:21)
-    at Contact (contact.tsx:42:43)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useState @ react.development.js:1622
-Contact @ contact.tsx:42
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-use-toast.ts:172 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-useToast @ use-toast.ts:172
-Toaster @ toaster.tsx:12
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-use-toast.ts:172 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-useToast @ use-toast.ts:172
-Toaster @ toaster.tsx:12
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1622 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at Object.useState (react.development.js:1622:21)
-    at useToast (use-toast.ts:172:35)
-    at Toaster (toaster.tsx:12:22)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-useState @ react.development.js:1622
-useToast @ use-toast.ts:172
-Toaster @ toaster.tsx:12
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-performConcurrentWorkOnRoot @ react-dom.development.js:25777
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-scroll-progress.tsx:8 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-ScrollProgress @ scroll-progress.tsx:8
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-scroll-progress.tsx:8 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-ScrollProgress @ scroll-progress.tsx:8
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1622 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at useState (react.development.js:1622:21)
-    at ScrollProgress (scroll-progress.tsx:8:35)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useState @ react.development.js:1622
-ScrollProgress @ scroll-progress.tsx:8
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-use-scroll-to-hash.ts:5 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-useRouter @ index.js:67
-useLocation @ index.js:97
-useScrollToHash @ use-scroll-to-hash.ts:5
-Navbar @ navbar.tsx:56
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-use-scroll-to-hash.ts:5 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-useRouter @ index.js:67
-useLocation @ index.js:97
-useScrollToHash @ use-scroll-to-hash.ts:5
-Navbar @ navbar.tsx:56
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at useRouter (index.js:67:25)
-    at useLocation (index.js:97:49)
-    at useScrollToHash (use-scroll-to-hash.ts:5:22)
-    at Navbar (navbar.tsx:56:20)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-useContext @ react.development.js:1618
-useRouter @ index.js:67
-useLocation @ index.js:97
-useScrollToHash @ use-scroll-to-hash.ts:5
-Navbar @ navbar.tsx:56
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-home.tsx:16 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-useInView @ useInView.tsx:48
-Home @ home.tsx:16
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-home.tsx:16 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-useInView @ useInView.tsx:48
-Home @ home.tsx:16
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1622 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at Object.useState (react.development.js:1622:21)
-    at useInView (useInView.tsx:48:31)
-    at Home (home.tsx:16:27)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-useState @ react.development.js:1622
-useInView @ useInView.tsx:48
-Home @ home.tsx:16
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:209 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useContext @ react.development.js:1602
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1618 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
-    at useContext (react.development.js:1618:21)
-    at MotionComponent (index.mjs:35:16)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at updateForwardRef (react-dom.development.js:19245:20)
-    at beginWork (react-dom.development.js:21675:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useContext @ react.development.js:1618
-MotionComponent @ index.mjs:35
-renderWithHooks @ react-dom.development.js:15486
-updateForwardRef @ react-dom.development.js:19245
-beginWork @ react-dom.development.js:21675
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-contact.tsx:42 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-Contact @ contact.tsx:42
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-contact.tsx:42 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-Contact @ contact.tsx:42
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1622 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at useState (react.development.js:1622:21)
-    at Contact (contact.tsx:42:43)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-useState @ react.development.js:1622
-Contact @ contact.tsx:42
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-use-toast.ts:172 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-useToast @ use-toast.ts:172
-Toaster @ toaster.tsx:12
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-use-toast.ts:172 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://reactjs.org/link/invalid-hook-call for tips about how to debug and fix this problem.
-printWarning @ react.development.js:209
-error @ react.development.js:183
-resolveDispatcher @ react.development.js:1592
-useState @ react.development.js:1621
-useToast @ use-toast.ts:172
-Toaster @ toaster.tsx:12
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react.development.js:1622 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at Object.useState (react.development.js:1622:21)
-    at useToast (use-toast.ts:172:35)
-    at Toaster (toaster.tsx:12:22)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
-    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
-    at invokeGuardedCallback (react-dom.development.js:4277:31)
-    at beginWork$1 (react-dom.development.js:27490:7)
-useState @ react.development.js:1622
-useToast @ use-toast.ts:172
-Toaster @ toaster.tsx:12
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-callCallback2 @ react-dom.development.js:4164
-invokeGuardedCallbackDev @ react-dom.development.js:4213
-invokeGuardedCallback @ react-dom.development.js:4277
-beginWork$1 @ react-dom.development.js:27490
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <ScrollProgress> component:
+import React, { useState } from 'react';
+import { motion } from "framer-motion";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { SiGithub, SiFacebook, SiTiktok, SiYoutube, SiInstagram } from "react-icons/si";
 
-    at ScrollProgress (http://127.0.0.1:5000/personalprofile/src/components/ui/scroll-progress.tsx:23:35)
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
+export default function Contact() {
+  const [showMessage, setShowMessage] = useState(false); // Fixed typo in setShowMessage
 
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <Navbar> component:
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setShowMessage(true);
+    setTimeout(() => {
+      setShowMessage(false);
+    }, 3000);
+  };
 
-    at Navbar (http://127.0.0.1:5000/personalprofile/src/components/layout/navbar.tsx:69:20)
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
+  const socialLinks = [
+    {
+      icon: SiGithub,
+      link: "https://github.com/minproducer",
+      hoverColor:
+        "hover:ring-2 hover:ring-gray-400 hover:bg-gray-200 dark:hover:ring-gray-600 dark:hover:bg-gray-800 text-gray-900 dark:text-white",
+    },
+    {
+      icon: SiFacebook,
+      link: "https://facebook.com/minproducer.fb",
+      hoverColor:
+        "hover:ring-2 hover:ring-blue-400 hover:bg-blue-100 dark:hover:ring-blue-600 dark:hover:bg-blue-800 text-blue-600 dark:text-white",
+    },
+    {
+      icon: SiTiktok,
+      link: "https://tiktok.com/@minproducer_tiktok",
+      hoverColor:
+        "hover:ring-2 hover:ring-gray-500 hover:bg-gray-200 dark:hover:ring-gray-700 dark:hover:bg-black text-gray-900 dark:text-white",
+    },
+    {
+      icon: SiYoutube,
+      link: "https://youtube.com/@minproducer_yt",
+      hoverColor:
+        "hover:ring-2 hover:ring-red-400 hover:bg-red-100 dark:hover:ring-red-600 dark:hover:bg-red-800 text-red-600 dark:text-white",
+    },
+    {
+      icon: SiInstagram,
+      link: "https://instagram.com/minproducer",
+      hoverColor:
+        "hover:ring-2 hover:ring-purple-400 hover:bg-gradient-to-tr from-pink-300 via-purple-300 to-yellow-300 dark:hover:ring-purple-600 dark:hover:bg-gradient-to-tr dark:from-pink-500 dark:via-purple-500 dark:to-yellow-500 text-purple-600 dark:text-white",
+    },
+  ];
 
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <Home> component:
+  return (
+    <section 
+      id="contact" 
+      className="min-h-screen flex items-center transition-colors duration-300 pt-20 pb-16"
+    >
+      <div className="container mx-auto px-4">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 2 }}
+          className="grid grid-cols-1 md:grid-cols-2 bg-gray-400 dark:bg-gray-900 shadow-2xl rounded-3xl overflow-hidden"
+        >
+          {/* Contact Information Side */}
+          <div className="bg-gradient-to-b from-blue-700 via-gray-100 to-orange-400 dark:bg-gradient-to-br dark:from-red-600 dark:to-purple-900 dark:text-white p-12 flex flex-col justify-between relative">
+            <div>
+              <motion.h2 
+                initial={{ y: -20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.2 }}
+                className="text-4xl font-bold mb-6 tracking-tight"
+              >
+                Liên Hệ
+              </motion.h2>
+              
+              <div className="space-y-4 mb-8">
+                {[
+                  { 
+                    icon: <Mail className="w-6 h-6 dark:text-white/80" />, 
+                    text: "minhhai113he@gmail.com",
+                    link: "mailto:minhhai113he@gmail.com"
+                  },
+                  { 
+                    icon: <Phone className="w-6 h-6 dark:text-white/80" />, 
+                    text: "(+84) 773448750",
+                    link: "tel:+84773448750"
+                  },
+                  { 
+                    icon: <MapPin className="w-6 h-6 dark:text-white/80" />, 
+                    text: "Hội An, Quảng Nam, Việt Nam",
+                    link: "https://maps.app.goo.gl/igdbdgC1QUrJs83S6"
+                  }
+                ].map((contact, index) => (
+                  <motion.div 
+                    key={index}
+                    initial={{ x: -20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ delay: 0.3 + index * 0.1 }}
+                    className="flex items-center space-x-4 bg-white/10 p-3 rounded-xl"
+                  >
+                    {contact.icon}
+                    {contact.link ? (
+                      <a 
+                        href={contact.link} 
+                        className="hover:text-white dark:hover:text-black transition-colors"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {contact.text}
+                      </a>
+                    ) : (
+                      <span>{contact.text}</span>
+                    )}
+                  </motion.div>
+                ))}
+              </div>
 
-    at Home (http://127.0.0.1:5000/personalprofile/src/pages/home.tsx:32:27)
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
+              {/* Social Media Links */}
+              <motion.div 
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.6 }}
+                className="flex space-x-4 mt-8"
+              >
+                {socialLinks.map((social, index) => (
+                  <a
+                    key={index}
+                    href={social.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`dark:text-white/70 ${social.hoverColor} transition-all transform hover:scale-120 bg-white/10 p-4 rounded-xl`}
+                  >
+                    <social.icon className="w-7 h-7" />
+                  </a>
+                ))}
+              </motion.div>
+            </div>
 
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <ForwardRef(MotionComponent)> component:
+            {/* Decorative Background Elements */}
+            <div 
+              className="absolute -top-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-2xl"
+            />
+            <div 
+              className="absolute -bottom-10 -left-10 w-60 h-60 bg-white/10 rounded-full blur-2xl"
+            />
+          </div>
 
-    at MotionComponent (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/framer-motion.js?v=d1266a0d:6565:40)
-    at div
-    at section
-    at Skills
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
+          {/* Form Side */}
+          <div className="p-12 flex items-center bg-gray-400 dark:bg-gray-800 bg-white relative">
+            <>
+              <form 
+                className="w-full space-y-6"
+                onSubmit={handleSubmit}
+              >
+                {[
+                  { 
+                    name: "name", 
+                    label: "Họ tên", 
+                    placeholder: "Nguyễn Văn A",
+                    type: "text"
+                  },
+                  { 
+                    name: "email", 
+                    label: "Email", 
+                    placeholder: "nguyenvana@gmail.com",
+                    type: "email"
+                  },
+                  { 
+                    name: "message", 
+                    label: "Tin nhắn", 
+                    placeholder: "Bạn Min quá đẹp zai!",
+                    type: "textarea"
+                  }
+                ].map((field, index) => (
+                  <motion.div
+                    key={field.name}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.2 * (index + 1) }}
+                  >
+                    <label className="block text-gray-700 dark:text-gray-300 mb-2 font-bold">{field.label}</label>
+                    {field.type === "textarea" ? (
+                      <textarea
+                        name={field.name}
+                        placeholder={field.placeholder}
+                        className="w-full min-h-[150px] p-3 border-2 border-blue-100 dark:border-gray-700 dark:bg-gray-700 dark:text-gray-200 focus:border-blue-500 dark:focus:border-blue-500 transition-all rounded-xl"
+                      />
+                    ) : (
+                      <input
+                        type={field.type}
+                        name={field.name}
+                        placeholder={field.placeholder}
+                        className="w-full p-3 border-2 border-blue-100 dark:border-gray-700 dark:bg-gray-700 dark:text-gray-200 focus:border-blue-500 dark:focus:border-blue-500 transition-all rounded-xl"
+                      />
+                    )}
+                  </motion.div>
+                ))}
 
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <ForwardRef(MotionComponent)> component:
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.8 }}
+                >
+                  <button 
+                    type="submit" 
+                    className="w-full p-3 bg-gradient-to-r from-blue-600 to-purple-700 hover:from-blue-700 hover:to-purple-800 text-white transition-all rounded-xl flex items-center justify-center group"
+                  >
+                    <Send className="mr-2 w-5 h-5 group-hover:rotate-45 transition-transform" />
+                    Gửi tin nhắn
+                  </button>
+                </motion.div>
+              </form>
 
-    at MotionComponent (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/framer-motion.js?v=d1266a0d:6565:40)
-    at div
-    at div
-    at section
-    at Skills
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
+              {/* Box thông báo */}
+              {showMessage && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 20 }}
+                  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-green-500 text-white p-4 rounded-xl shadow-lg flex items-center space-x-2"
+                >
+                  <span>
+                    <p>Tin nhắn đã được gửi!</p>
+                    <p>Đùa chứ chưa code API phần này, vui lòng bấm nút mạng xã hội bên cạnh để liên hệ với tớ nhé!</p>
+                  </span>
+                  <button
+                    onClick={() => setShowMessage(false)}
+                    className="text-white hover:text-gray-200"
+                  >
+                    ✕
+                  </button>
+                </motion.div>
+              )}
+            </>
+          </div>
+        </motion.div>
 
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <ForwardRef(MotionComponent)> component:
-
-    at MotionComponent (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/framer-motion.js?v=d1266a0d:6565:40)
-    at div
-    at div
-    at section
-    at Skills
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
-
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <ForwardRef(MotionComponent)> component:
-
-    at MotionComponent (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/framer-motion.js?v=d1266a0d:6565:40)
-    at div
-    at div
-    at section
-    at Skills
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
-
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <ForwardRef(MotionComponent)> component:
-
-    at MotionComponent (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/framer-motion.js?v=d1266a0d:6565:40)
-    at div
-    at div
-    at section
-    at Skills
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
-
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <ForwardRef(MotionComponent)> component:
-
-    at MotionComponent (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/framer-motion.js?v=d1266a0d:6565:40)
-    at div
-    at div
-    at section
-    at Skills
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
-
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <ForwardRef(MotionComponent)> component:
-
-    at MotionComponent (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/framer-motion.js?v=d1266a0d:6565:40)
-    at div
-    at section
-    at Projects
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
-
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <Contact> component:
-
-    at Contact (http://127.0.0.1:5000/personalprofile/src/pages/contact.tsx?t=1742838677006:50:43)
-    at main
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
-
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:18704 The above error occurred in the <Toaster> component:
-
-    at Toaster (http://127.0.0.1:5000/personalprofile/src/components/ui/toaster.tsx:29:22)
-    at Router (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/wouter.js?v=a372bbff:142:17)
-    at QueryClientProvider (http://127.0.0.1:5000/personalprofile/@fs/D:/Development/Github/PersonalProfile/PersonalProfile/node_modules/.vite/deps/@tanstack_react-query.js?v=a372bbff:2805:3)
-    at App
-
-Consider adding an error boundary to your tree to customize error handling behavior.
-Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
-logCapturedError @ react-dom.development.js:18704
-update.callback @ react-dom.development.js:18737
-callCallback @ react-dom.development.js:15036
-commitUpdateQueue @ react-dom.development.js:15057
-commitLayoutEffectOnFiber @ react-dom.development.js:23430
-commitLayoutMountEffects_complete @ react-dom.development.js:24727
-commitLayoutEffects_begin @ react-dom.development.js:24713
-commitLayoutEffects @ react-dom.development.js:24651
-commitRootImpl @ react-dom.development.js:26862
-commitRoot @ react-dom.development.js:26721
-finishConcurrentRender @ react-dom.development.js:25931
-performConcurrentWorkOnRoot @ react-dom.development.js:25848
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
-react-dom.development.js:26962 Uncaught TypeError: Cannot read properties of null (reading 'useState')
-    at useState (react.development.js:1622:21)
-    at ScrollProgress (scroll-progress.tsx:8:35)
-    at renderWithHooks (react-dom.development.js:15486:18)
-    at mountIndeterminateComponent (react-dom.development.js:20103:13)
-    at beginWork (react-dom.development.js:21626:16)
-    at beginWork$1 (react-dom.development.js:27465:14)
-    at performUnitOfWork (react-dom.development.js:26596:12)
-    at workLoopSync (react-dom.development.js:26505:5)
-    at renderRootSync (react-dom.development.js:26473:7)
-    at recoverFromConcurrentError (react-dom.development.js:25889:20)
-useState @ react.development.js:1622
-ScrollProgress @ scroll-progress.tsx:8
-renderWithHooks @ react-dom.development.js:15486
-mountIndeterminateComponent @ react-dom.development.js:20103
-beginWork @ react-dom.development.js:21626
-beginWork$1 @ react-dom.development.js:27465
-performUnitOfWork @ react-dom.development.js:26596
-workLoopSync @ react-dom.development.js:26505
-renderRootSync @ react-dom.development.js:26473
-recoverFromConcurrentError @ react-dom.development.js:25889
-performConcurrentWorkOnRoot @ react-dom.development.js:25789
-workLoop @ scheduler.development.js:266
-flushWork @ scheduler.development.js:239
-performWorkUntilDeadline @ scheduler.development.js:533
+        {/* Map Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="mt-8 rounded-3xl overflow-hidden shadow-2xl p-0"
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111107.94059086328!2d108.33467070463624!3d15.918441559923135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420dd4e1353a7b%3A0xae336435edfcca3!2zVHAuIEjhu5lpIEFuLCBRdeG6o25nIE5hbSwgVmnhu4d0IE5hbQ!5e1!3m2!1svi!2s!4v1742877768800!5m2!1svi!2s"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            className="w-full"
+          />
+        </motion.div>
+      </div>
+    </section>
+  );
+}

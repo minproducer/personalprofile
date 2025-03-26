@@ -60,8 +60,7 @@ export default function Home() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.4, duration: 0.6 }}
             >
-              Tôi là Ngô Tấn Minh Giang, hay Min, một nhà phát triển, thiết kế, nhiếp ảnh gia và tài xế đa năng. 
-              Sinh ra và lớn lên tại Đà Nẵng, tôi luôn tìm kiếm những cách thức sáng tạo để kết hợp các đam mê của mình.
+              Min đây, từ Đà Nẵng. Trang web này là "hộp đen" ghi lại cuộc đời "đa zi năng" của tôi: code, design, ảnh, và cả những chuyến đi bất đắc dĩ. Nói chung, đây là nơi tôi cố gắng biến mớ hỗn độn thành một câu chuyện có chút ý nghĩa. Hy vọng bạn tìm thấy điều gì đó thú vị (hoặc ít nhất là buồn cười 😂😂😂)!
             </motion.p>
 
             <motion.div 
