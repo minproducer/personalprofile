@@ -54,7 +54,6 @@ npm run build
 📤 Deploy to GitHub Pages
 Update vite.config.ts with the correct base:
 ```
-ts
 base: '/personalprofile/'
 ```
 
