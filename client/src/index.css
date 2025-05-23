@@ -1,0 +1,84 @@
+
+/* Add hover effects for skill cards */
+.skill-card {
+  position: relative;
+  transition: transform 0.2s ease-out;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.skill-card:hover {
+  transform: translateY(-5px) translateZ(0);
+}
+
+.skill-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: inherit;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
+
+.skill-card:hover::after {
+  opacity: 1;
+}
+
+/* Optimize theme transitions */
+:root {
+  color-scheme: light dark;
+}
+
+/* Explicit styles for light mode */
+html.light {
+  color-scheme: light;
+}
+
+/* Explicit styles for dark mode */
+html.dark {
+  color-scheme: dark;
+}
+
+/* Apply transitions to specific properties only for smoother performance */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition: background-color 0.2s ease, 
+              color 0.2s ease,
+              border-color 0.2s ease !important;
+  transition-delay: 0s !important;
+}
+
+/* Only apply complex transitions to interactive elements */
+.interactive-element {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Make sure ThreeJS sphere color updates with theme */
+.three-sphere {
+  transition: color 0.3s ease;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
