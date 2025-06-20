@@ -37,15 +37,22 @@ const projects = [
     title: "Personal Profile",
     description: "Trang hồ sơ cá nhân chuyên nghiệp, thể hiện kỹ năng phát triển web với ReactJS và tối ưu hóa SEO.",
     github: "https://github.com/minproducer/personalprofile",
-    link: "https://minproducer.github.io/personalprofile/",
+    link: "https://minproducer.com/",
     technologies: ["React", "Tailwind", "Vite"]
   },
   {
     title: "Cloud Space Landing Page",
     description: "Trang bán hàng cho dịch vụ cloud service, thể hiện kỹ năng thiết kế giao diện và phát triển landing page.",
     github: "https://github.com/minproducer/cloudspacelandingpage",
-    link: "https://minproducer.github.io/cloudspacelandingpage/",
+    link: "https://cloud.minproducer.com/",
     technologies: ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    title: "CV Cá nhân",
+    description: "Trang CV cá nhân, thể hiện kỹ năng và kinh nghiệm làm việc.",
+    github: "https://github.com/minproducer/cv",
+    link: "https://cv.minproducer.com/",
+    technologies: ["React", "TailwindCSS", "Vite", "TypeScript"]
   }
 ];
 

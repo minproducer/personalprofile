@@ -24,7 +24,7 @@ export default defineConfig({
     },
   },
   root: path.resolve(__dirname, 'client'),
-  base: '/personalprofile/', // Thêm dòng này
+  base: '', // Thêm dòng này
   build: {
     outDir: path.resolve(__dirname, 'dist/public'),
     emptyOutDir: true,
